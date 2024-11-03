@@ -1,2 +1,2 @@
-# owencornmesser.github.io
+# ocornmesser.github.io
 Owen Cornmesser's Personal Website
