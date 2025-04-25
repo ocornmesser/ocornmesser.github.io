@@ -1,3 +1,9 @@
+---
+layout: default
+title: Talks
+permalink: /talks.html
+---
+
 h1>Talks & Lectures</h1>
 
 <ul>
