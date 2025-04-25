@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Home
+---
 <h1>Welcome</h1>
 <p>Hi, I'm [Your Name], a researcher focused on [Your Field/Interest]. This site showcases my current work and recorded talks.</p>
 
