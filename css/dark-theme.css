@@ -1,0 +1,21 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+a {
+  color: #82b1ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1, h2, h3 {
+  color: #ffffff;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
