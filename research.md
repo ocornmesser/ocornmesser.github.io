@@ -1,3 +1,9 @@
+---
+layout: default
+title: Research
+permalink: /research.html
+---
+
 <h1>Research Projects</h1>
 
 <ul>
