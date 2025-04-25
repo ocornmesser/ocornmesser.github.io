@@ -1,7 +1,7 @@
 title: Your Name - Research Website
 description: Personal research website and lecture archive
 baseurl: "" # if publishing to https://yourusername.github.io/repo-name, use "/repo-name"
-url: "https://yourusername.github.io"
+url: "https://ocornmesser.github.io"
 theme: null
 markdown: kramdown
 include:
