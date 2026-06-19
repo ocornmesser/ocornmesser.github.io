@@ -163,6 +163,25 @@ a {
   white-space: nowrap;
 }
 
+.site-notice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 40px;
+  border-bottom: 1px solid rgba(192, 141, 60, 0.35);
+  background: #fbf5e6;
+  color: #4f3f1d;
+  padding: 0.55rem 1rem;
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.site-notice strong {
+  color: #1f2523;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -1083,6 +1102,13 @@ a {
 
   .brand span:last-child {
     display: none;
+  }
+
+  .site-notice {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.15rem;
+    text-align: left;
   }
 
   .hero {
