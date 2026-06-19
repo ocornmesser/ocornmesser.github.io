@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curriculum vitae for Owen Cornmesser.">
+    <title>CV | Owen Cornmesser</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="index.html#top" aria-label="Owen Cornmesser home">
+          <span class="brand-mark" aria-hidden="true">OC</span>
+          <span>Owen Cornmesser</span>
+        </a>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav">
+          <span data-lucide="menu" aria-hidden="true"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <ul class="nav-links" id="primary-nav" data-nav-links>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#research">Research</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#teaching">Teaching</a></li>
+          <li><a class="active" href="cv.html">CV</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div>
+          <p class="section-kicker">Curriculum Vitae</p>
+          <h1>Owen Cornmesser</h1>
+          <p>
+            Electrical engineering researcher focused on power systems, grid analytics,
+            resilient infrastructure, and technical education.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="cv-layout">
+          <nav class="cv-sidebar" aria-label="CV sections">
+            <a href="#education">Education</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+          </nav>
+
+          <div>
+            <section class="cv-section" id="education" aria-labelledby="education-title">
+              <h2 id="education-title">Education</h2>
+              <article class="cv-entry">
+                <div class="cv-date">2026</div>
+                <div>
+                  <h3>Graduate study in Electrical Engineering</h3>
+                  <p>Power and energy systems focus.</p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <div class="cv-date">2024</div>
+                <div>
+                  <h3>B.S. in Electrical Engineering</h3>
+                  <p>Coursework in power systems, controls, electronics, and data science.</p>
+                </div>
+              </article>
+            </section>
+
+            <section class="cv-section" id="research" aria-labelledby="research-cv-title">
+              <h2 id="research-cv-title">Research Experience</h2>
+              <article class="cv-entry">
+                <div class="cv-date">2024-Present</div>
+                <div>
+                  <h3>Power systems research</h3>
+                  <p>
+                    Modeling, simulation, and data-driven analysis for reliability,
+                    resilience, and grid operation.
+                  </p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <div class="cv-date">2023-2024</div>
+                <div>
+                  <h3>Undergraduate research</h3>
+                  <p>
+                    Computational experiments and technical writing for power and energy
+                    systems projects.
+                  </p>
+                </div>
+              </article>
+            </section>
+
+            <section class="cv-section" id="publications" aria-labelledby="publications-cv-title">
+              <h2 id="publications-cv-title">Selected Publications and Reports</h2>
+              <article class="cv-entry">
+                <div class="cv-date">2026</div>
+                <div>
+                  <h3>Data-driven fault analysis for distribution systems with high DER penetration</h3>
+                  <p>Working paper.</p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <div class="cv-date">2025</div>
+                <div>
+                  <h3>Voltage stability and resilience metrics for large-scale electric networks</h3>
+                  <p>Technical report.</p>
+                </div>
+              </article>
+            </section>
+
+            <section class="cv-section" id="projects" aria-labelledby="projects-cv-title">
+              <h2 id="projects-cv-title">Projects</h2>
+              <article class="cv-entry">
+                <div class="cv-date">Current</div>
+                <div>
+                  <h3>Grid analysis workflows</h3>
+                  <p>Reusable scripts and notebooks for power-flow, voltage, and fault studies.</p>
+                </div>
+              </article>
+              <article class="cv-entry">
+                <div class="cv-date">Current</div>
+                <div>
+                  <h3>Power systems visualizations</h3>
+                  <p>Interactive examples for engineering education and communication.</p>
+                </div>
+              </article>
+            </section>
+
+            <section class="cv-section" id="skills" aria-labelledby="skills-title">
+              <h2 id="skills-title">Skills</h2>
+              <article class="cv-entry">
+                <div class="cv-date">Tools</div>
+                <div>
+                  <h3>Power systems, programming, and analysis</h3>
+                  <p>Python, MATLAB, data analysis, simulation workflows, technical writing, and visualization.</p>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Owen Cornmesser.</p>
+      <p><a class="text-link" href="index.html">Home</a></p>
+    </footer>
+  </body>
+</html>
