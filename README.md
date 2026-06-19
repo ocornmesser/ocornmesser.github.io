@@ -70,6 +70,7 @@ Replace `assets/img/profile-placeholder.svg` with a real profile photo when read
 
 - `index.html`: main website
 - `cv.html`: editable web CV
+- `software/index.html`: software projects page available at `/software/`
 - `files/CurriculumVitae.pdf`: PDF CV linked from the site
 - `assets/css/styles.css`: layout and visual styling
 - `assets/js/site.js`: mobile navigation, icons, active section state, and footer year

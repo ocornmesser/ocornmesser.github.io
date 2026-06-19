@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Software projects by Owen Cornmesser, including power systems tools, browser demos, documentation, papers, and citation links."
+    >
+    <title>Software | Owen Cornmesser</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="../assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="../index.html#top" aria-label="Owen Cornmesser home">
+          <span class="brand-mark" aria-hidden="true">OC</span>
+          <span>Owen Cornmesser</span>
+        </a>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav">
+          <span data-lucide="menu" aria-hidden="true"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <ul class="nav-links" id="primary-nav" data-nav-links>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#research">Research</a></li>
+          <li><a href="../index.html#news">News</a></li>
+          <li><a href="../index.html#publications">Publications</a></li>
+          <li><a class="active" href="./">Software</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#teaching">Teaching</a></li>
+          <li><a href="../cv.html">CV</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div>
+          <p class="section-kicker">Software</p>
+          <h1>Power Systems Tools</h1>
+          <p>
+            Research software, browser demos, documentation, and reproducible artifacts
+            connected to my work in grid modeling, dynamics, co-simulation, and education.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="software-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="section-kicker">Projects</p>
+            <h2 id="software-title">Available and Planned Software</h2>
+          </div>
+          <a class="text-link" href="https://github.com/ocornmesser?tab=repositories">GitHub repositories</a>
+        </div>
+
+        <div class="software-layout">
+          <div class="software-grid">
+            <article class="software-card">
+              <div class="software-meta">
+                <span class="status-badge status-soon">Coming soon</span>
+                <span class="software-stack">Python, InterPSS, co-simulation</span>
+              </div>
+              <h2>Adaptive T&amp;D Co-Simulation Toolkit</h2>
+              <p>
+                Tools for transmission-level dynamic contingency analysis with adaptive
+                distribution-system modeling and targeted DER/IBR model detail.
+              </p>
+              <div class="software-actions" aria-label="Adaptive co-simulation toolkit links">
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="play" aria-hidden="true"></span> Use online</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="github" aria-hidden="true"></span> GitHub</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="book-open" aria-hidden="true"></span> Docs</span>
+                <a class="software-action" href="../cv.html#publications"><span data-lucide="file-search" aria-hidden="true"></span> Paper</a>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="quote" aria-hidden="true"></span> Cite</span>
+              </div>
+            </article>
+
+            <article class="software-card">
+              <div class="software-meta">
+                <span class="status-badge status-private">Private core</span>
+                <span class="software-stack">TypeScript frontend, serverless API</span>
+              </div>
+              <h2>IBR Control Sensitivity Explorer</h2>
+              <p>
+                A planned web interface for exploring inverter-control parameter effects
+                while keeping sensitive model logic behind a lightweight hosted API.
+              </p>
+              <div class="software-actions" aria-label="IBR control sensitivity explorer links">
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="play" aria-hidden="true"></span> Use online</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="github" aria-hidden="true"></span> GitHub</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="book-open" aria-hidden="true"></span> Docs</span>
+                <a class="software-action" href="../cv.html#publications"><span data-lucide="file-search" aria-hidden="true"></span> Paper</a>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="quote" aria-hidden="true"></span> Cite</span>
+              </div>
+            </article>
+
+            <article class="software-card">
+              <div class="software-meta">
+                <span class="status-badge status-demo">Demo</span>
+                <span class="software-stack">TypeScript, browser visualization</span>
+              </div>
+              <h2>Power Systems Teaching Visualizations</h2>
+              <p>
+                Small browser-native demos for explaining state-space models, transient
+                stability, small-signal ideas, and power-system dynamics concepts.
+              </p>
+              <div class="software-actions" aria-label="Power systems teaching visualizations links">
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="play" aria-hidden="true"></span> Use online</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="github" aria-hidden="true"></span> GitHub</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="book-open" aria-hidden="true"></span> Docs</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="file-search" aria-hidden="true"></span> Paper</span>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="quote" aria-hidden="true"></span> Cite</span>
+              </div>
+            </article>
+
+            <article class="software-card">
+              <div class="software-meta">
+                <span class="status-badge status-open">Open source</span>
+                <span class="software-stack">Python, notebooks, forecasting</span>
+              </div>
+              <h2>EV Charging Demand Forecasting</h2>
+              <p>
+                Forecasting experiments and teaching-ready examples based on LSTM models
+                for electric-vehicle charging station demand.
+              </p>
+              <div class="software-actions" aria-label="EV charging demand forecasting links">
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="play" aria-hidden="true"></span> Use online</span>
+                <a class="software-action" href="https://github.com/ocornmesser?tab=repositories"><span data-lucide="github" aria-hidden="true"></span> GitHub</a>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="book-open" aria-hidden="true"></span> Docs</span>
+                <a class="software-action" href="../cv.html#presentations"><span data-lucide="file-search" aria-hidden="true"></span> Paper</a>
+                <span class="software-action disabled" aria-disabled="true"><span data-lucide="quote" aria-hidden="true"></span> Cite</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" aria-labelledby="deployment-title">
+        <div class="section-heading">
+          <p class="section-kicker">Deployment Model</p>
+          <h2 id="deployment-title">How Projects Will Be Hosted</h2>
+        </div>
+        <div class="software-layout">
+          <div class="architecture-grid">
+            <article class="architecture-card">
+              <h3>Small Tools</h3>
+              <p>
+                TypeScript browser apps can be published as static files through GitHub
+                Pages, keeping demos free, fast, and easy to inspect.
+              </p>
+            </article>
+            <article class="architecture-card">
+              <h3>Private-Core Tools</h3>
+              <p>
+                Public frontends can live on GitHub Pages while sensitive algorithms run
+                through a Cloudflare Workers, Vercel Functions, or Netlify Functions API.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Owen Cornmesser.</p>
+      <p><a class="text-link" href="../index.html">Home</a></p>
+    </footer>
+  </body>
+</html>
