@@ -43,18 +43,26 @@ GitHub may automatically configure Pages for a repository named `USERNAME.github
 
 This folder appears to live inside a larger existing Git working tree. If you want this website to be its own clean repository, run the commands above from this exact folder. A nested `.git` directory will make this folder independent from the parent repository.
 
-## What To Customize First
+## Updating the Live Site
+
+After editing files locally, publish the changes to GitHub Pages with:
+
+```bash
+git add .
+git commit -m "Update website content"
+git push
+```
+
+GitHub Pages usually republishes within a few minutes.
+
+## What To Customize Next
 
 Edit `index.html` and replace:
 
-- `Owen Cornmesser` if you want a different display name
-- `you@example.com`
-- GitHub, LinkedIn, and Scholar links
-- The research-area text
-- News items
-- Publication cards
-- Project cards
-- `cv.html` or the CV button if you prefer to link directly to a PDF
+- News items as your work changes
+- Publication statuses as papers move from under review to accepted or published
+- Research and project summaries as repositories or papers become public
+- The profile image once you have a photo you want to use
 
 Replace `assets/img/profile-placeholder.svg` with a real profile photo when ready. Keep the filename the same or update the `src` in `index.html`.
 
@@ -62,6 +70,7 @@ Replace `assets/img/profile-placeholder.svg` with a real profile photo when read
 
 - `index.html`: main website
 - `cv.html`: editable web CV
+- `files/CurriculumVitae.pdf`: PDF CV linked from the site
 - `assets/css/styles.css`: layout and visual styling
 - `assets/js/site.js`: mobile navigation, icons, active section state, and footer year
 - `assets/img/research-grid-banner.png`: generated visual banner

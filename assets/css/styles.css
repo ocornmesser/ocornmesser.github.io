@@ -346,6 +346,12 @@ a {
   color: #ffffff;
 }
 
+.button.secondary.light {
+  border-color: var(--color-line);
+  background: #ffffff;
+  color: var(--color-ink);
+}
+
 .button.secondary:hover,
 .button.secondary:focus-visible {
   border-color: rgba(255, 255, 255, 0.68);
@@ -500,11 +506,14 @@ a {
 
 .research-item h3,
 .publication-card h3,
-.project-card h3 {
+.project-card h3,
+.cv-entry h3,
+.skill-card h3 {
   margin: 0;
   font-size: 1.2rem;
   line-height: 1.25;
   letter-spacing: 0;
+  overflow-wrap: break-word;
 }
 
 .research-item p,
@@ -699,6 +708,26 @@ a {
   font-size: 1.08rem;
 }
 
+.cv-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin-top: 1.1rem;
+  color: var(--color-ink-soft);
+  font-weight: 700;
+}
+
+.cv-contact-row a {
+  color: var(--color-green);
+  text-decoration-color: rgba(66, 107, 87, 0.28);
+  text-underline-offset: 0.22em;
+  overflow-wrap: anywhere;
+}
+
+.cv-actions {
+  margin-top: 1.3rem;
+}
+
 .cv-layout {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
@@ -742,9 +771,16 @@ a {
   letter-spacing: 0;
 }
 
+.cv-subheading {
+  margin: 1.4rem 0 0.4rem;
+  color: var(--color-red);
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+
 .cv-entry {
   display: grid;
-  grid-template-columns: minmax(100px, 150px) minmax(0, 1fr);
+  grid-template-columns: minmax(120px, 170px) minmax(0, 1fr);
   gap: 1rem;
   padding: 0.9rem 0;
 }
@@ -756,12 +792,45 @@ a {
 }
 
 .cv-entry h3 {
-  margin: 0;
   font-size: 1.05rem;
 }
 
 .cv-entry p {
   margin: 0.25rem 0 0;
+  color: var(--color-ink-soft);
+}
+
+.cv-list {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.7rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--color-ink-soft);
+}
+
+.cv-list.standalone {
+  margin-top: 0;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.skill-card {
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.skill-card h3 {
+  font-size: 1rem;
+}
+
+.skill-card p {
+  margin: 0.45rem 0 0;
   color: var(--color-ink-soft);
 }
 
@@ -798,7 +867,9 @@ a {
   .content-grid,
   .content-grid.compact,
   .card-grid,
-  .project-grid {
+  .project-grid,
+  .cv-layout,
+  .skill-grid {
     grid-template-columns: 1fr;
   }
 
